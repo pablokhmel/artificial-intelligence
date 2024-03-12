@@ -5,7 +5,7 @@ from numpy.random import random
 from data import get_data, inspect_data, split_data
 
 data = get_data()
-# inspect_data(data)
+inspect_data(data)
 
 train_data, test_data = split_data(data)
 
